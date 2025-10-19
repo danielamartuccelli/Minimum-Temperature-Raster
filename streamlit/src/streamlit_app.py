@@ -24,10 +24,10 @@ with tab1:
     st.header("📋 Distribución de temperaturas")
     
     # Mostrar imagen
-    st.image('streamlit\assets\01_distribucion.png', use_container_width=True)
+    st.image('streamlit/assets/01_distribucion.png', width='stretch')
 
     # Segunda imagen
-    st.image('streamlit\assets\01b_distribucion.png', use_container_width=True)
+    st.image('streamlit/assets/01b_distribucion.png', width='stretch')
     
     st.divider()
     
@@ -39,11 +39,11 @@ with tab2:
 
 
     # Mostrar imagen
-    st.image('streamlit\assets\02_ranking.png', use_container_width=True)
+    st.image('streamlit/assets/02_ranking.png', width='stretch')
 
 
     # Segunda imagen
-    st.image('streamlit\assets\01b_distribucion.png', use_container_width=True)
+    st.image('streamlit/assets/01b_distribucion.png', width='stretch')
 
 
     st.divider()
@@ -54,11 +54,11 @@ with tab3:
     st.header("🌍 Mapa de temperatura mínima por distrito")
 
     # Mostrar imagen
-    st.image('streamlit\assets\03_mapa.png', use_container_width=True)
+    st.image('streamlit/assets/03_mapa.png', width='stretch')
 
 
     # Botón para descargar CSV
-    csv_path = 'data\estadisticas_completas.csv'  # Ajusta el nombre del archivo
+    csv_path = 'data/estadisticas_completas.csv'  # Ajusta el nombre del archivo
     
     try:
         with open(csv_path, 'rb') as f:
