@@ -3,8 +3,6 @@ import pandas as pd
 import geopandas as gpd
 import folium
 import os
-from estimation import load_and_filter_ipress, get_data_summary, get_departments_list
-from plots import create_hospital_map, create_department_bar
 import matplotlib
 matplotlib.use('Agg')  # Backend para Streamlit
 
@@ -57,4 +55,24 @@ with tab3:
 
     # Mostrar imagen
     st.image('streamlit\assets\03_mapa.png', use_container_width=True)
+
+
+    # Botón para descargar CSV
+    csv_path = 'data\estadisticas_completas.csv'  # Ajusta el nombre del archivo
+    
+    try:
+        with open(csv_path, 'rb') as f:
+            csv_data = f.read()
+        
+        st.download_button(
+            label="📥 Descargar datos (CSV)",
+            data=csv_data,
+            file_name="datos_temperatura.csv",
+            mime="text/csv"
+        )
+    except FileNotFoundError:
+        st.error(f"No se encontró el archivo: {csv_path}")
+
+
+
     
