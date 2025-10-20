@@ -24,7 +24,7 @@ with tab1:
     st.header("📋 Distribución de temperaturas")
     
     # Mostrar imagen
-    st.image('streamlit/assets/01_distribucion.png', use_container_width=True)
+    st.image('streamlit/assets/01_distribucion_v2.png', use_container_width=True)
 
     # Segunda imagen
     st.image('streamlit/assets/01b_distribucion.png', use_container_width=True)
@@ -39,11 +39,11 @@ with tab2:
 
 
     # Mostrar imagen
-    st.image('streamlit/assets/02_ranking.png', use_container_width=True)
+    st.image('streamlit/assets/02_ranking_v2.png', use_container_width=True)
 
 
     # Segunda imagen
-    st.image('streamlit/assets/01b_distribucion.png', use_container_width=True)
+    st.image('streamlit/assets/02b_ranking_V2.png', use_container_width=True)
 
 
     st.divider()
@@ -54,7 +54,11 @@ with tab3:
     st.header("🌍 Mapa de temperatura mínima por distrito")
 
     # Mostrar imagen
-    st.image('streamlit/assets/03_mapa.png', use_container_width=True)
+    st.image('streamlit/assets/03_mapa_v2.png', use_container_width=True)
+
+
+    #Segunda imagen
+    st.image('streamlit/assets/04_mapa_frio_extremo.png', use_container_width=True)
 
 
     # Botón para descargar CSV
