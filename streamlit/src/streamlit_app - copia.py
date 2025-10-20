@@ -39,7 +39,7 @@ with tab2:
 
 
     # Mostrar imagen
-st.image('streamlit/assets/02_ranking.png', use_container_width=True)
+st.image('streamlit/assets/02_ranking_v2.png', use_container_width=True)
 
 
     # Segunda imagen
