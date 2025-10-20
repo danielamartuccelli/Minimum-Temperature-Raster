@@ -62,7 +62,7 @@ with tab3:
 
 
     # Botón para descargar CSV
-    csv_path = 'data/estadisticas_completas.csv'  # Ajusta el nombre del archivo
+    csv_path = 'data/estadisticas_completas_2.csv'  # Ajusta el nombre del archivo
     
     try:
                 with open(csv_path, 'rb') as f:
@@ -92,49 +92,114 @@ with tab4:
     Política 1""")
      
      st.markdown("""
-    **Programa de Viviendas Térmicas Rurales (ISUR Ampliado)***""")
+    **Programa de Viviendas Térmicas Rurales (ISUR Ampliado)**""")
      
      st.markdown("""
-    Objetivo: Reducir en un treinta por cierto (30%) los casos de infecciones respiratorias agudas (IRA) en población infantil en zonas altoandinas con temperaturas promedio menor a 0 °C""")
+    *Objetivo:* Reducir en un 30% los casos de infecciones respiratorias agudas (IRA) en población infantil en zonas altoandinas con temperaturas promedio menor a 0 °C""")
      
      st.markdown("""
     Territorio y población objetivo: Distritos rurales en Puno, Arequipa, Cusco, Tacna, Moquegua y Huancavelica identificados como los más fríos (temperatura anual promedio por debajo de los 0 grados). Población meta: 50 000 hogares rurales en altitudes""")
      
      st.markdown("""
-    Intervención""")
+    **Intervención**""")
      
      st.markdown("""
-    1.Implementación de viviendas térmicamente mejoradas (paredes aislantes, techos dobles, sistemas pasivos de calefacción solar).""")
+    1. Implementación de viviendas térmicamente mejoradas (paredes aislantes, techos dobles, sistemas pasivos de calefacción solar).""")
      
      st.markdown("""
-    2.Complementario al programa “Mi Abrigo” (FONCODES), pero con criterios geoespaciales basados en análisis raster.""")
+    2. Complementario al programa “Mi Abrigo” (FONCODES), pero con criterios geoespaciales basados en análisis raster.""")
      
      st.markdown("""
     Costo estimado: S/ 8 000 por vivienda con una meta de 50 000 hogares. El costo total de la intervención asciende a S/ 400 millones.""")
      
      st.markdown("""
-    KPIn/
-    1.Disminucion en un 30 % de casos IRA en la población infantil en temporada de friaje (Fuente: ESSALUD/MINSA).n/
-    2. Aumento de un 20 % de confort térmico reportado por hogares (Fuente: SISFOH).n/
+    KPI""")
+     
+     st.markdown("""
+    1.Disminucion en un 30 % de casos IRA en la población infantil en temporada de friaje (Fuente: ESSALUD/MINSA)""")
+     
+     st.markdown("""
+    2. Aumento de un 20 % de confort térmico reportado por hogares (Fuente: SISFOH)""")
+     
+     st.markdown("""
     3. Aumento de un 15 % de asistencia escolar en invierno (Fuente: MINEDU).""")
      
      st.markdown("""
-    Política 2/n
-    ***Fondo de Adaptación Agropecuaria al Friaje***n/
-    Objetivo: Reducir pérdidas agrícolas y ganaderas en 25 % en distritos de la sierra sur expuestos a heladas recurrentes.n/
-    Territorio y población objetivo: Distritos agrícolas en Puno, Cusco y Arequipa con temperatura promedio menor a ≤ 0 °C (105 distritos). Población meta: 30 000 productores agropecuarios familiares.n/
-    Intervención:n/
-    1. Entrega de kits antiheladas (módulos de riego nocturno, mantas térmicas agrícolas).n/
-    2. Capacitación en calendarios agrícolas adaptativos.n/
-    3. Construcción de módulos de refugio ganadero para alpacas y ovinos.n/
-    Costo estimado: S/ 8 000 por agricultor con una meta de 30 000 trabajadores. El costo total de la intervención asciende a S/ 240 millones.n/
-    KPIn/
-    1. Disminuación en un 25 % de pérdidas reportadas en cultivos andinos (Fuente: MINAGRI).n/
-    2. Disminución en un 15 % de mortalidad de alpacas y ovinos en época de heladas(Fuente: SENASA).n/
+    Política 2""")
+     
+     st.markdown("""
+    **Fondo de Adaptación Agropecuaria al Friaje**""")
+     
+     st.markdown("""
+    *Objetivo:* Reducir pérdidas agrícolas y ganaderas en 25 % en distritos de la sierra sur expuestos a heladas recurrentes.""")
+     
+     st.markdown("""
+    *Territorio y población objetivo:* Distritos agrícolas en Puno, Cusco y Arequipa con temperatura promedio menor a ≤ 0 °C (105 distritos). Población meta: 30 000 productores agropecuarios familiares.""")
+     
+     st.markdown("""
+    **Intervención:**""")
+     
+     st.markdown("""
+    1. Entrega de kits antiheladas (módulos de riego nocturno, mantas térmicas agrícolas).""")
+     
+     st.markdown("""
+    2. Capacitación en calendarios agrícolas adaptativos.""")
+     
+     st.markdown("""
+    3. Construcción de módulos de refugio ganadero para alpacas y ovinos.""")
+     
+     st.markdown("""
+    *Costo estimado:* S/ 8 000 por agricultor con una meta de 30 000 trabajadores. El costo total de la intervención asciende a S/ 240 millones.""")
+     
+     st.markdown("""
+    *KPI*""")
+     
+     st.markdown("""
+     1. Disminuación en un 25 % de pérdidas reportadas en cultivos andinos (Fuente: MINAGRI)""")
+
+     st.markdown("""
+    2. Disminución en un 15 % de mortalidad de alpacas y ovinos en época de heladas(Fuente: SENASA).""")
+     
+     st.markdown("""
     3. 80% de agricultores capacitados adoptan prácticas agrícolas adaptadas al clima (Fuente: MINAGRI).""")
      
      st.markdown("""
     Política 3""")
+     
+     st.markdown("""
+    **Escuelas Seguras ante Friaje**""")
+     
+     st.markdown("""
+    *Objetivo:* Reducir el ausentismo escolar por eventos de friaje en un 40 % en zonas altoandinas con temperaturas promedio menor a 0 °C.""")
+     
+     st.markdown("""
+    *Territorio y población objetivo:* Distritos rurales en Puno, Arequipa, Cusco, Tacna, Moquegua y Huancavelica identificados como los más fríos (temperatura anual promedio por debajo de los 0 grados). Población meta: 20 000 estudiantes y 250 escuelas rurales.""")
+     
+     st.markdown("""
+    *Intervención:*""")
+     
+     st.markdown("""
+    1. Implementación de protocolos escolares de abrigo y refugio.""")
+     
+     st.markdown("""
+    2. Entrega de kits de calefacción solar y ropa térmica a escolares.""")
+     
+     st.markdown("""
+    3. Implementación de escuelas térmicamente mejoradas. Instalar paredes aislantes, techos dobles, sistemas pasivos de calefacción solar en entre 1 a 3 espacios de las escuelas rurales (dependiendo del tamaño de la población escolar).""")
+     
+     st.markdown("""
+    *Costo estimado:* S/ 30 000 por escuela con una meta 250 escuelas beneficiadas. El costo total de la intervención asciende a S/ 7,5 millones.""")
+     
+     st.markdown("""
+    *KPI*""")
+     
+     st.markdown("""
+    1. Reducción de un 40 % de ausentismo escolar en temporada de friaje (Fuente: MINEDU).""")
+     
+     st.markdown("""
+    2. 100% de escuelas beneficiadas aumentan la temperatura de salones en +5 °C durante temporada de friaje (Fuente: MINEDU).""")
+     
+
 
 
     
