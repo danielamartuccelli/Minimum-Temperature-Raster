@@ -84,6 +84,4 @@ with tab3:
 # TAB 4: Propuestas de política pública
 with tab4:
      st.header("Propuestas de política pública ante el frío extremo") 
-
-     st.markdown()
     
